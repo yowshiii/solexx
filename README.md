@@ -1,1 +1,1 @@
-# solexx
+# SoleX

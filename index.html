@@ -1,0 +1,415 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <div id="menu-bar" class="fa fa-bars"></div>
+            <a href="#" class="logo">Sole X</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#product">Products</a>
+                <a href="#featured">Featured</a>
+                <a href="#blog">Reviews</a>
+                <a href="#news">news</a>
+            </nav>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="icons">
+                <a href="#"><i class="fa fa-heart"></i></a>
+                <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                <a href="login.html"><i class="fa fa-user"></i></a>
+            </div>
+        </header>
+        <!--end header-->
+        <section class="home" id="home">
+            <div class="slide-container active">
+                <div class="slide">
+                    <div class="content">
+                        <span>Nike Lifestyle Shoes</span>
+                        <h3>Nike Air Jordan 1 University Blue</h3>
+                        <p>
+                            Familiar colours, applied with a classic colour-blocking scheme, characterise this Air Jordan 1. 
+                            The shoe brings genuine University Blue leather to the ankle, heel, toe and outsole, with black on the 
+                            Swoosh and collar and contrasting white on the quarter panel, midsole, tongue and toe box. A black Wings 
+                            logo with University Blue branding on the tongue helps finish off the model's clean and classic detailing.
+                        </p>
+                        <a href="#payment">
+                        <button class="buyButton">Add to Cart</button>
+                        </a>
+                    </div>
+                    <div class="image">
+                        <a href="product1.html">
+                        <img src="img/slide/1.png" class="shoe">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <span>Nike Lifestyle Shoes</span>
+                        <h3>Nike Air Jordan 1 Mocha</h3>
+                        <p>
+                            Jordan Brand continued their Black Toe design theme in 2020 and released the Jordan 1 High Dark Mocha, now 
+                            available on StockX. The Dark Mocha 1 was one of the most anticipated releases in 2020 due to its familiar 
+                            colorblocking that referenced two of the greatest Jordan 1s of all-time, the Jordan 1 Travis Scott and the Jordan 1 Black Toe.
+                        </p>
+                        <a href="#payment">
+                        <button class="buyButton">Add to Cart</button>
+                        </a>
+                    </div>
+                    <div class="image">
+                        <a href="product2.html">
+                        <img src="img/slide/2.png" class="shoe">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <span>Nike Lifestyle Shoes</span>
+                        <h3>Nike Air Jordan 1 Lost and Found</h3>
+                        <p>
+                            The Jordan Brand team responsible for developing the AJ1 Chicago obsessed about every detail of the shoe's 
+                            design to bring this nostalgic story to life. Jordan designers studied multiple pairs of original AJ1s in 
+                            varying states of distress to capture the nuances of the shoe's look, described as having "light-to-no wear 
+                            but with materials that sat for years in a box and didn't withstand the test of time".
+                        </p>
+                        <button class="buyButton">Add to Cart</button>
+                    </div>
+                    <div class="image">
+                        <a href="product3.html">
+                        <img src="img/slide/3.png" class="shoe">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="prev" class="fa fa-angle-left" onclick="prev();"></div>
+            <div id="next" class="fa fa-angle-right" onclick="next();"></div>
+        </section>
+        <!--end home-->
+        <div class="features">
+            <div class="feature">
+                <img src="img/shipping.png" alt="" class="featureIcon">
+                <span class="featureTitle">FREE SHIPPING</span>
+                <span class="featureDesc">Free worldwide shipping on all orders.</span>
+            </div>
+            <div class="feature">
+                <img class="featureIcon" src="img/return.png" alt="">
+                <span class="featureTitle">30 DAYS RETURN</span>
+                <span class="featureDesc">No question return and easy refund in 14 days.</span>
+            </div>
+            <div class="feature">
+                <img class="featureIcon" src="img/gift.png" alt="">
+                <span class="featureTitle">GIFT CARDS</span>
+                <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+            </div>
+            <div class="feature">
+                <img class="featureIcon" src="img/contact.png" alt="">
+                <span class="featureTitle">CONTACT US!</span>
+                <span class="featureDesc">Keep in touch via email and support system.</span>
+            </div>
+        </div>
+        <section class="product" id="product">
+            <h1 class="heading">on sale <span>Products</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-shopping-cart"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/1.png" alt="">
+                        <h3>Nike SB x Jordan 4 Retro - Pine Greens</h3>
+                        <div class="price">₱23,000 <span>₱25,000</span></div>
+                        <a href="#product"></a>
+                        <a href="#product" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-shopping-cart"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/2.png" alt="">
+                        <h3>Nike Dunk Low - Panda</h3>
+                        <div class="price">₱7,000 <span>₱9,000</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-shopping-cart"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/3.png" alt="">
+                        <h3>New Balance 2002R - Protection Pack</h3>
+                        <div class="price">₱15,000 <span>₱16,500</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-shopping-cart"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/4.png" alt="">
+                        <h3>Nike Dunk Low - Grey Fog</h3>
+                        <div class="price">₱9,000 <span>₱9,500</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-shopping-cart"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/5.png" alt="">
+                        <h3>New Balance 550 - Salt and Pepper</h3>
+                        <div class="price">₱9,000 <span>₱10,500</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-shopping-cart"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/6.png" alt="">
+                        <h3>Nike Air Force 1</h3>
+                        <div class="price">₱5,500 <span>₱6,200</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end product-->
+        <section class="featured" id="featured">
+            <h1 class="heading">Featured <span>Shoes</span></h1>
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/product1/1.png" alt="" class="featured-image-1">
+                        <img src="img/product1/2.png" alt="" class="featured-image-1">
+                        <img src="img/product1/3.png" alt="" class="featured-image-1">
+                        <img src="img/product1/4.png" alt="" class="featured-image-1">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/product1/1.png" alt="" class="big-image-1">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Nike Air Jodan 1 University Blue</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        #1 best selling shoe
+                    </p>
+                    <div class="price">₱21,000 <span>₱25,000</span></div>
+                    <div class="icons">
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/product2/1.png" alt="" class="featured-image-2">
+                        <img src="img/product2/2.png" alt="" class="featured-image-2">
+                        <img src="img/product2/3.png" alt="" class="featured-image-2">
+                        <img src="img/product2/4.png" alt="" class="featured-image-2">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/product2/1.png" alt="" class="big-image-2">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Nike Air Jordan 1 Mocha</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        #2 best selling shoe
+                    </p>
+                    <div class="price">₱25,000 <span>₱28,000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/product3/1.png" alt="" class="featured-image-3">
+                        <img src="img/product3/2.png" alt="" class="featured-image-3">
+                        <img src="img/product3/3.png" alt="" class="featured-image-3">
+                        <img src="img/product3/4.png" alt="" class="featured-image-3">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/product3/1.png" alt="" class="big-image-3">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Nike Air Jordan 1 Lost and Found</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>
+                        #3 best selling shoe
+                    </p>
+                    <div class="price">₱26,000 <span>₱28,000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="payment">
+                <h1 class="payTitle">Personal Information</h1>
+                <label>Name and Surname</label>
+                <input type="text" placeholder="Luka Doncic" class="payInput">
+                <label>Phone Number</label>
+                <input type="text" placeholder="+63 123 456 7890" class="payInput">
+                <label>Address</label>
+                <input type="text" placeholder="Mapayapa St 00 00" class="payInput">
+                <h1 class="payTitle">Card Information</h1>
+                <div class="cardIcons">
+                    <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                    <img src="./img/master.png" alt="" width="40" class="cardIcon">
+                </div>
+                <input type="password" class="payInput" placeholder="Card Number">
+                <div class="cardInfo">
+                    <input type="text" placeholder="mm" class="payInput sm">
+                    <input type="text" placeholder="yyyy" class="payInput sm">
+                    <input type="text" placeholder="cvv" class="payInput sm">
+                </div>
+                <button class="payButton">Checkout!</button>
+                <span class="close">X</span>
+            </div>
+        </div>
+        </section>
+        <!--end featured-->
+        <section class="blog" id="blog">
+            <h1 class="heading">Review from our <span>customers</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/team/1.jpg" alt="">
+                    <h3>Adrian</h3>
+                    <p>
+                        “I got a pair of shoes from sole X and I am very satisfied. They are authentic and worth the money. 
+                        The store also offered free shipping at that price so that is a plus!”
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/team/2.jpg" alt="">
+                    <h3>Miguel</h3>
+                    <p>
+                        “I recently purchased a Jordan from Sole X, and I couldn not be happier with my online shopping 
+                        experience. Their website was user-friendly, making it easy to find the perfect item. The checkout process 
+                        was smooth, and I received my order promptly. The product arrived in excellent condition, exactly as described on 
+                        their website. I am thrilled with the quality of their service and will definitely shop at Sole X again in the future. Highly recommended!”
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/team/3.jpg" alt="">
+                    <h3>Reggie</h3>
+                    <p>
+                        “I ordered a airforce from Ssole X last week, and I was amazed at how quickly it arrived. 
+                        The packaging was secure, ensuring the item was undamaged. The customer service was exceptional, 
+                        as they kept me updated throughout the entire process. I had a question about the product, and their 
+                        support team responded promptly and professionally. Overall, my experience with Sole X was 
+                        outstanding, and I cannot wait for my next purchase.”
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end blog-->
+        <section class="news" id="news">
+            <div class="content">
+                <h3>news and promo subscription</h3>
+                <p>
+                    if you want hot updates and promo from our store feel free to subscribe using your email!
+                </p>
+                <form action="">
+                    <input type="email" placeholder="Enter your email to subscribe" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </section>
+        <!--end news-->
+        <section class="footer" id="footer">
+        <footer>
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a> 
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Team</a></li>
+                </ul>
+            </div>
+            <div class="footerBottom">
+                <p>Copyright &copy;2023; Designed by <span class="designer">School Bukol</span></p>
+            </div>
+        </footer>
+        </section>
+    </body>
+</html>
+
+<script src="js/script.js"></script>
